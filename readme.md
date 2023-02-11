@@ -14,6 +14,7 @@ fueron:
         F(File) --> PS(Proyect Structure) --> Artifacts --> +
     ```
     ![pasosJar](imagenesReadme/pasosJar.png)
+
     A continuación escogo el proyecto para hacer el _.jar_
 
 2. Contruyo el artifact
