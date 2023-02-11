@@ -72,5 +72,11 @@ posibles, introduje bastante código en la _Main_...
 a GH.
 
 ### GH y release
-Actualizo todos los cambios realizados, subo el _.jar_ de la libreria utilizada
-(en la release) y añado el _javadoc_.
+1. Actualizo todos los cambios realizados.
+2. Subo el _.jar_ de la libreria utilizada.
+   1. creo etiqueta asociado al commit donde la importé.
+      ```
+      git tag -a v1.0 <ref-commit>
+      ```
+   2. Creo _release_ en GH y subo el _.jar_ 
+3. Añado el _javadoc_.
