@@ -1,9 +1,38 @@
+/**
+ * Libreria que pide numeros para realizar operaciones basicas
+ * que serán escogidas en funcion del usuario
+ *
+ * @version 1.0
+ * @author Angel Castineira
+ */
 public class Metodos {
+    /**
+     * opcion para realizar una operacion de suma
+     */
     final static int SUMA = 1;
+    /**
+     * opcion para realizar una operacion de resta
+     */
     final static int RESTA = 2;
+    /**
+     * opcion para realizar una operacion de multiplicacion
+     */
     final static int MULTI = 3;
+    /**
+     * opcion para realizar una operacion de division
+     */
     final static int DIV = 4;
-    final static String COMENTARIO = "Introduce un numero";
+
+
+    /**
+     *Realiza una operacion de suma, resta, multiplicacion o division
+     * en funcion de la opcion escogida por el usuario
+     *
+     * @param num1 primer numero de la operacion
+     * @param num2 segundo numero de la operacion
+     * @param opcion tipo de operacion a realizar
+     * @return si es correcto resultado, si no, null
+     */
     public static Float operacion (float num1, float num2, int opcion) {
         Float resultado = null;
             switch (opcion) {
@@ -13,7 +42,7 @@ public class Metodos {
                     }catch (Exception e){
                         return null;
                     }
-                    break;
+                    break; // si no pongo el break, se devuelve el ultimo resultado que lo tenga
                 case RESTA:
                     try {
                         resultado = num1 - num2;
