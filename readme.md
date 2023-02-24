@@ -121,3 +121,8 @@ radicando y el segundo al indica.
 1. Hago un `git squash` de la rama raices posicionandome previamente en
 la _Main_
 2. Hago un nuevo commit indicando el squash
+
+## Raiz para cualquier indice
+1. Esto es solo una aclaración ya que al principio hice la funcion
+de la raiz con el indice que quiera el ususario, por lo tanto puede ser
+cuadrada, cúbica o la que quieras.
