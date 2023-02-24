@@ -25,17 +25,17 @@ public class Metodos {
     /**
      * opcion para realizar una operacion de raiz cuadrada
      */
-    final static int RAIZ_CUADRADA = 5;
+    final static int RAIZ = 5;
 
 
     /**
      *Realiza una operacion de suma, resta, multiplicacion, division
-     * o raiz cuadrada
+     * o raiz
      * en funcion de la opcion escogida por el usuario
      *
-     * @param num1 primer numero de la operacion
-     * @param num2 segundo numero de la operacion
-     * @param opcion tipo de operacion a realizar
+     * @param num1 primer numero de la operacion, introducido por el usu
+     * @param num2 segundo numero de la operacion, introducido por el usu
+     * @param opcion tipo de operacion a realizar, introducirdo por el usuario
      * @return si es correcto resultado, si no, null
      */
     public static Float operacion (float num1, float num2, int opcion) {
@@ -69,9 +69,9 @@ public class Metodos {
                         return null;
                     }
                     break;
-                case RAIZ_CUADRADA:
+                case RAIZ:
                     try {
-                        resultado = (float)Math.pow(9,(1/2));
+                        resultado = (float)Math.pow(num1,(1/num2)); // num2 es el indice
                     }catch (Exception e){
                         return null;
                     }

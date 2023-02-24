@@ -108,4 +108,12 @@ libreria que he utilizado anteriormente. Para importarla:
 
    Agrego el _.jar_ correspondiente.
 
-3. 
+
+3. Añado y hago un nuevo commit "R2 - ..." con las nuevas opciones añadidas.
+
+## Trabajo en el main - **rama raices**
+1. Añado el metodo de calcular raiz a la _Main_
+2. Como pedía el enunciado, el primer numero pedido corresponde al 
+radicando y el segundo al indica.
+3. Hago commit
+4. 
