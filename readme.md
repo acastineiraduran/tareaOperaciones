@@ -80,3 +80,44 @@ a GH.
       ```
    2. Creo _release_ en GH y subo el _.jar_ 
 3. Añado el _javadoc_.
+
+# EXAMEN
+## Primeros pasos - **rama master**
+Hago un `git clone <enlace-repo-gh>` y hago el primer commit "INICIO EXAMEN"
+agregando previamente unas cosas al _.gitignore_. Subo el commit a GH.
+   > Este proceso lo hago como punto de partida de la tarea del examen
+
+## Nueva rama - **rama raices**
+1. Con `git branch raices` y con `git switch raices` creo una nueva rama y 
+me muevo a ella. Añado y hago el primer commit "R1"
+   ````
+   git add .
+   git commit -m "R1"
+   ````
+   Puedo hacer el `git add .` porque ya he agregado al fichero _.gitignore_
+   todos los archivos que no me interesaban que se subieran a GH.
+   
+   Con `git log --oneline` compruebo que se ha subido correctamente.
+
+
+2. En la clase _Metodos_ creo una nueva función para calcular la raiz cuadrada.
+También descargo el _.jar_ de la realease del proyecto que es donde tengo la
+libreria que he utilizado anteriormente. Para importarla:
+
+   >_File --> Proyect Structure --> Libraries --> +_ 
+
+   Agrego el _.jar_ correspondiente.
+
+
+3. Añado y hago un nuevo commit "R2 - ..." con las nuevas opciones añadidas.
+
+## Trabajo en el main - **rama raices**
+1. Añado el metodo de calcular raiz a la _Main_
+2. Como pedía el enunciado, el primer numero pedido corresponde al 
+radicando y el segundo al indica.
+3. Hago commit
+
+## Squash - **rama master**
+1. Hago un `git squash` de la rama raices posicionandome previamente en
+la _Main_
+2. Hago un nuevo commit indicando el squash
