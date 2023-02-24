@@ -90,3 +90,22 @@ agregando previamente unas cosas al _.gitignore_. Subo el commit a GH.
 ## Nueva rama - **rama raices**
 1. Con `git branch raices` y con `git switch raices` creo una nueva rama y 
 me muevo a ella. Añado y hago el primer commit "R1"
+   ````
+   git add .
+   git commit -m "R1"
+   ````
+   Puedo hacer el `git add .` porque ya he agregado al fichero _.gitignore_
+   todos los archivos que no me interesaban que se subieran a GH.
+   
+   Con `git log --oneline` compruebo que se ha subido correctamente.
+
+
+2. En la clase _Metodos_ creo una nueva función para calcular la raiz cuadrada.
+También descargo el _.jar_ de la realease del proyecto que es donde tengo la
+libreria que he utilizado anteriormente. Para importarla:
+
+   >_File --> Proyect Structure --> Libraries --> +_ 
+
+   Agrego el _.jar_ correspondiente.
+
+3. 

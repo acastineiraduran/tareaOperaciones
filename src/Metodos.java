@@ -22,10 +22,15 @@ public class Metodos {
      * opcion para realizar una operacion de division
      */
     final static int DIV = 4;
+    /**
+     * opcion para realizar una operacion de raiz cuadrada
+     */
+    final static int RAIZ_CUADRADA = 5;
 
 
     /**
-     *Realiza una operacion de suma, resta, multiplicacion o division
+     *Realiza una operacion de suma, resta, multiplicacion, division
+     * o raiz cuadrada
      * en funcion de la opcion escogida por el usuario
      *
      * @param num1 primer numero de la operacion
@@ -60,6 +65,13 @@ public class Metodos {
                 case DIV:
                     try {
                         resultado = num1 / num2;
+                    }catch (Exception e){
+                        return null;
+                    }
+                    break;
+                case RAIZ_CUADRADA:
+                    try {
+                        resultado = (float)Math.pow(9,(1/2));
                     }catch (Exception e){
                         return null;
                     }
