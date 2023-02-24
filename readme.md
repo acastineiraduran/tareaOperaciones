@@ -126,3 +126,10 @@ la _Main_
 1. Esto es solo una aclaración ya que al principio hice la funcion
 de la raiz con el indice que quiera el ususario, por lo tanto puede ser
 cuadrada, cúbica o la que quieras.
+
+## Ultimos pasos
+1. hago una etiqueta al ultimo commit
+2. Creo un _.jar_
+3. Hago una release en GH
+4. Subo la etiqueta
+5. Genero el javadoc
