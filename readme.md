@@ -80,3 +80,13 @@ a GH.
       ```
    2. Creo _release_ en GH y subo el _.jar_ 
 3. Añado el _javadoc_.
+
+# EXAMEN
+## Primeros pasos - **rama master**
+Hago un `git clone <enlace-repo-gh>` y hago el primer commit "INICIO EXAMEN"
+agregando previamente unas cosas al _.gitignore_. Subo el commit a GH.
+   > Este proceso lo hago como punto de partida de la tarea del examen
+
+## Nueva rama - **rama raices**
+1. Con `git branch raices` y con `git switch raices` creo una nueva rama y 
+me muevo a ella. Añado y hago el primer commit "R1"
